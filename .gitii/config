@@ -1,0 +1,25 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/amdexa/openvpn-client-android
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[submodule "main/src/main/cpp/asio"]
+	url = https://github.com/chriskohlhoff/asio
+[submodule "main/src/main/cpp/lz4"]
+	url = https://github.com/lz4/lz4.git
+[submodule "main/src/main/cpp/mbedtls"]
+	url = https://github.com/ARMmbed/mbedtls.git
+[submodule "main/openssl"]
+	url = https://github.com/schwabe/platform_external_openssl.git
+[submodule "main/openvpn"]
+	url = https://github.com/schwabe/openvpn.git
+[submodule "main/src/main/cpp/openvpn3"]
+	url = https://github.com/schwabe/openvpn3.git

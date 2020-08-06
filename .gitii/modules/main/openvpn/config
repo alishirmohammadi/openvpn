@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	worktree = ../../../../main/src/main/cpp/openvpn
+[remote "origin"]
+	url = https://github.com/schwabe/openvpn.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "icsopenvpn"]
+	remote = origin
+	merge = refs/heads/icsopenvpn
+[submodule "vendor/cmocka"]
+	active = true
+	url = https://git.cryptomilk.org/projects/cmocka.git
