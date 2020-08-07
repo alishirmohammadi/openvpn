@@ -7,15 +7,12 @@ package com.amdexa.openvpn.activities;
 
 import android.annotation.TargetApi;
 import android.app.ActionBar;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Build;
 import android.support.v4n.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.amdexa.openvpn.LoginActivity;
 import com.amdexa.openvpn.R;
 import com.amdexa.openvpn.fragments.AboutFragment;
 import com.amdexa.openvpn.fragments.GeneralSettings;
